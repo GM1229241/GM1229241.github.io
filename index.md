@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Home
---- # Welcome to My Portfolio Hello! My name is [Your Alias or Initials].
+--- # Welcome to My Portfolio Hello! My name is [GM].
 ## Projects
-- Project 1: Description
-- Project 2: Description
+- Project 1: Coming Soon
+- Project 2: Coming Later
 ## About Me
 Click here to learn more → [About Me](about.md)
 [About Me](about.md) creates a clickable link to your About page.
