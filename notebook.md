@@ -40,7 +40,7 @@
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|Variable| A named container used to store a value that may change. | `var x = 5;` |  |  |
+| Variable | A named container used to store a value that may change. | `var x = 5;` |  |  |
 | Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 | Data Type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 | String | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
