@@ -58,18 +58,19 @@
 | Column | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 | Row | A widget that shows things side-by-side. | `Row(...)` |  |  |
 | Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-| Text | A widget to display text on the screen. | `Text('Hello')` |  |  |
+| Text | A widget to display text on the screen. | `Text('Hello')` |  | in alt_design_screen.dart  "text": "Bella is a calm and loyal companion who enjoys long naps.", |
 | Image.network | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 | ElevatedButton | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-| onPressed | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+| onPressed | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  | in showcaes.dart  onPressed: () => Navigator.pushNamed(context, '/alt'), |
 | StatelessWidget | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-| Navigator | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+| Navigator | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  | in alt_design_screen.dart class AltDesignScreen extends StatelessWidget { |
 | @override | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  | in main.dart class MyPortfolioApp extends StatelessWidget {@override |
-| build() | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+| build() | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  | in background.dart  padding: const EdgeInsets.only(left: 100.0),in
+|
 | BuildContext | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 | Super.key | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-| const | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|  | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+| const | This marks a method as one that’s replacing a method in a parent class. | `@override` |  | in home.dart @override |
+|  | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  | in alt_design_screen.dart  Widget build(BuildContext context) { |
 |  | Required in every widget class to describe what to show. | `build` |  |  |
 |  | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |  | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
